@@ -1,0 +1,94 @@
+/* ADD YOUR STYLES HERE */
+/* 1*********************/
+.info td,
+.header td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.underlined {
+    border-bottom: 1px solid  #d3d3d3;
+    
+}
+
+.one {
+    width: 100px;
+}
+
+.two, .three {
+    width: 200px;
+}
+
+.four {
+    width: 250px;
+}
+
+.header thead {
+    padding-bottom: 30px;
+}
+
+/* 2******************/
+.stats {
+    border-bottom: 1px solid  #d3d3d3;
+    border-top: 1px solid  #d3d3d3;
+    width: 33%;
+    font-size: 15px;
+    font-weight: 100;
+    color: #d3d3d3;
+    text-align: center;
+}
+
+
+.stats td {
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.numbers {
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+
+/*******************3*********/
+.bar tr th {
+    text-align: right;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+
+.things {
+    width: 100%;
+}
+
+.percentage {
+    background-color: #1569C7;
+    color: white;
+    height: 20px;
+    text-indent: 4px;
+    padding-top: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*************************************/
+.instruction-answer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Media-answer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Media-figure {
+  margin-right: 1em;
+}
+
+.Media-body {
+  flex: 1;
+}
+
+.Media-body1 {
+    flex:10;
+}
