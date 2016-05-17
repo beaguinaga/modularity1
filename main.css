@@ -1,94 +1,97 @@
 /* ADD YOUR STYLES HERE */
-/* 1*********************/
-.info td,
-.header td{
-    padding-top: 10px;
-    padding-bottom: 10px;
+/* Data Table */
+.data-table {
+	width: 100%;
 }
 
-.underlined {
-    border-bottom: 1px solid  #d3d3d3;
-    
+.data-table td,
+.data-table th {
+	padding: 10px;
+	border-bottom: solid 1px #ccc;
+}
+.data-table tr:last-child td {
+	border-bottom: 0;
 }
 
-.one {
-    width: 100px;
+/* Stats */
+.light-table {
+	border: solid 1px #ccc;
+	border-width: 1px 0;
 }
 
-.two, .three {
-    width: 200px;
+.light-table > tr > td,
+.light-table > * > tr > td {
+	padding: 20px;
 }
 
-.four {
-    width: 250px;
+.prominent {
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
 }
 
-.header thead {
-    padding-bottom: 30px;
+/* Bar Chart */
+.left-table th {
+	text-align: right;
+	white-space: nowrap;
 }
 
-/* 2******************/
-.stats {
-    border-bottom: 1px solid  #d3d3d3;
-    border-top: 1px solid  #d3d3d3;
-    width: 33%;
-    font-size: 15px;
-    font-weight: 100;
-    color: #d3d3d3;
-    text-align: center;
+.left-table td {
+	width: 100%;
+	padding: 1px 10px;
+}
+
+.barchart {
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	height: 24px;
+	border-radius: 0 3px 3px 0;
+	background-color: #629edb;
+	padding-left: 5px;
+}
+
+/* Lightbox */
+.lightbox {
+	height: 500px;
+	width: 100%;
+	background: rgba(0,0,0,0.65);
+	display: table;
+	padding: 10px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	
+}
+
+.lightbox-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.lightbox-content {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.btn {
+	float: right;
 }
 
 
-.stats td {
-    padding-bottom: 20px;
-    padding-top: 15px;
-}
-.numbers {
-    font-size: 30px;
-    font-weight: 900;
-    color: black;
+/* Media Block */
+.media-image {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
-/*******************3*********/
-.bar tr th {
-    text-align: right;
-    padding-right: 5px;
-    white-space: nowrap;
-}
-
-.things {
-    width: 100%;
-}
-
-.percentage {
-    background-color: #1569C7;
-    color: white;
-    height: 20px;
-    text-indent: 4px;
-    padding-top: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-/*************************************/
-.instruction-answer {
-  display: flex;
-  align-items: flex-start;
-}
-
-.Media-answer {
-  display: flex;
-  align-items: flex-start;
-}
-
-.Media-figure {
-  margin-right: 1em;
-}
-
-.Media-body {
-  flex: 1;
-}
-
-.Media-body1 {
-    flex:10;
+.media-body {
+	overflow: hidden;
 }
