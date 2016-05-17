@@ -9,18 +9,19 @@
 	padding: 10px;
 	border-bottom: solid 1px #ccc;
 }
+
 .data-table tr:last-child td {
-	border-bottom: 0;
+	border-bottom: none;
 }
 
 /* Stats */
-.light-table {
+.stats-table {
 	border: solid 1px #ccc;
 	border-width: 1px 0;
 }
 
-.light-table > tr > td,
-.light-table > * > tr > td {
+.stats-table > tr > td,
+.stats-table > * > tr > td {
 	padding: 20px;
 }
 
@@ -28,6 +29,10 @@
 	text-align: center;
 	font-weight: bold;
 	font-size: 35px;
+}
+
+.small {
+    color: #ccc;
 }
 
 /* Bar Chart */
@@ -59,11 +64,11 @@
 	display: table;
 	padding: 10px;
 	box-sizing: border-box;
-	position: fixed;
+	/*position: fixed;
 	top: 0;
 	left: 0;
 	height: 100%;
-	
+	*/
 }
 
 .lightbox-container {
